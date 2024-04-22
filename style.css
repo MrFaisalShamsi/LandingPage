@@ -501,12 +501,12 @@ nav h3{
 #footer-gooey{
     position : absolute ;
     height : 36vw ;
-    width : 46vw ;
+    width : 100% ;
 }
 
 #gooey1{
     height : 32vh ;
-    width : 100vw ;
+    width : 100% ;
     background-color : #fe330a ;
     bottom : 92% ;
     filter : blur(20px);
@@ -516,9 +516,9 @@ nav h3{
 #gooey2{
     position : absolute ;
     height : 75vh ;
-    width : 55vw ;
+    width : 100vw ;
     background-color : #fe330a ;
-    right : -55vw ;
+    right : -25vw ;
     bottom : 80% ;
     filter : blur(20px);
     animation-name : gooey-2 ;
@@ -540,7 +540,7 @@ nav h3{
  #gooey3{
     position : absolute;
     height: 70vh ;
-    width: 100vw;
+    width: 100%;
     bottom : 17vw ;
 	border-top: 2px solid transparent;
 	border-left: 20vw solid #fe330a;
@@ -886,23 +886,5 @@ nav h3{
     #loader h1{
         font-size : 10vw ;
     }
-
-    #footer{
-        /* position : fixed ; */
-        /* z-index : 9 ; */
-        height : 100vh ;
-        width : 100vw ;
-        /* bottom : 0 ; */
-        /* background-color : #000 ; */
-        /* color : #fff ; */
-        /* display : flex ; */
-        /* align-items : flex-end ; */
-        /* justify-content : flex-end ; */
-        /* flex-direction : column ; */
-        /* padding : 1vw 3vw ; */
-        /* position : relative ; */
-        /* filter : blur(10px) ; */
-    }
-
 }
 
