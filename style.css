@@ -504,7 +504,7 @@ nav h3{
     width : 100% ;
 }
 
-#gooey1{
+/* #gooey1{
     height : 32vh ;
     width : 100% ;
     background-color : #fe330a ;
@@ -561,7 +561,7 @@ nav h3{
     to{
         transform : translate( 0% , 30% ) ;
     }
-} 
+}  */
 
 #footer-bottom{
     border-top : 1px solid #dadada ;
