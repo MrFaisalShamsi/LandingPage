@@ -504,36 +504,35 @@ nav h3{
     width : 100% ;
 }
 
-/* #gooey1{
-    height : 32vh ;
+#gooey1{
+    height : 50vh ;
     width : 100% ;
     background-color : #fe330a ;
-    bottom : 92% ;
+    bottom : 190% ;
     filter : blur(20px);
     position : absolute ;
 }
 
 #gooey2{
-    position : absolute ;
-    height : 75vh ;
-    width : 100vw ;
+    height : 50vh ;
+    width : 100% ;
     background-color : #fe330a ;
-    right : -25vw ;
-    bottom : 80% ;
+    bottom : 190% ;
     filter : blur(20px);
+    position : absolute ;
     animation-name : gooey-2 ;
-    animation-duration : 6s ;
+    animation-duration : 4s ;
     animation-timing-function : linear ; 
     animation-iteration-count : infinite ;
     animation-direction : alternate ;
-} 
+}
 
 @keyframes gooey-2{
     from{
-        transform : translate( 5% , 0% ) skew(0 , 50deg ) ;
+        transform : translate( 0% , 0% ) skew(0 , 5deg ) ;
     }
     to{
-        transform : translate( 0% , 5% ) skew(0 , 13deg) ;
+        transform : translate( 0% , 0% ) skew(0 , 25deg) ;
     }
 }
 
@@ -561,7 +560,7 @@ nav h3{
     to{
         transform : translate( 0% , 30% ) ;
     }
-}  */
+} 
 
 #footer-bottom{
     border-top : 1px solid #dadada ;
@@ -580,7 +579,7 @@ nav h3{
     background-color : #00000070 ;
     position : fixed ;
     z-index : 99 ;
-    top : -100%;
+    top : -110%;
     transition : all ease 0.8s ;
 }
 #full-div1{
@@ -856,7 +855,7 @@ nav h3{
         background : linear-gradient(to top right , #ff3107 , #ff671b );
         /* background : linear-gradient(to top right , red , blue ); */
         top : 30% ;
-        left : 25% ;
+        left : 1% ;
         filter : blur(20px);
         animation-name : gooey ;
         animation-duration : 4s ;
@@ -875,6 +874,76 @@ nav h3{
 
     #gooey1{
         height : 80vh ;
+    }
+
+    #page4{
+        height : 40vh ;
+        width : 100% ;
+    }
+
+    .swiper {
+        height: 90%;
+      }
+
+      .swiper .swiper-wrapper{
+        width : 50% ;
+    }
+    
+    .swiper-slide {
+        font-size: 18px;
+        border-left : 1px solid #808080 ;
+        padding : 0 2vw ;
+      }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    
+      .swiper-slide {
+        width: 30%;
+      }
+    
+
+    #page5{
+        position: absolute;
+        /* background-color : yellow ; */
+        /* top: 10%; */
+        left: 50%;
+        transform: translate(-50%, 10%);
+        max-height: 50vh; /* Restricting to half of viewport height */
+        overflow-y: auto; /* Enable vertical scrolling */
+        /* border: 1px solid #ccc; Optional: add border for visibility */
+        padding: 10px;
+        /* box-sizing: border-box; */
+    }
+
+    #footer{
+    }
+
+    #footer h1{
+        font-size : 21vw ;
+        padding : 0 7vw ;
+        /* font-color : #000 ; */
+    }
+
+    #footer-bottom{
+        margin : 0 5vw ;
+        margin-bottom : 5vw ;
+    }
+
+    #gooey1{
+        display : none ;
+    }
+
+    #gooey2{
+        bottom : 70% ;
+    }
+
+    #gooey3{
+        display : none ;
     }
 
     #loader{

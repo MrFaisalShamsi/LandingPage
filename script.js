@@ -4,7 +4,7 @@ const scroll = new LocomotiveScroll({
 });
 
 
-function page4Animation() {
+function page3Animation() {
     var elemC = document.querySelector("#elem-container")
     var fixed = document.querySelector("#fixed-image")
 
@@ -61,12 +61,12 @@ function menuAnimation() {
 function loaderAnimation() {
     var loader = document.querySelector("#loader");
     setTimeout(function () {
-        loader.style.top = "-100%";
+        loader.style.top = "-110%";
     }, 4200);
 }
 
 swiperAnimation();
-page4Animation();
+page3Animation();
 menuAnimation();
 loaderAnimation();
 
